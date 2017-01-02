@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{b34ffefd-203e-4ceb-8cd7-6ab088a5c733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{ac6abe4f-8ffd-46e2-b8ac-217a7917e354}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\base_server.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base_acceptor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared_defs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared_error.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base_connector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\session.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\message_factory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\message.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\base_server.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\base_acceptor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\base_connector.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\session.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
